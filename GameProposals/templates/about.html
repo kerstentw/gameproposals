@@ -1,0 +1,28 @@
+$def with (content)
+$var cssfiles: /static/secondcss.css
+
+<div id = "main_wrapper">
+
+<h1> About: </h1>
+
+<!--<a href = "/home"><img class = "BannerImage" src = "/static/GP_png.png" alt = "Test Banner(no image)"/></a>
+
+<div id = "linkbar">
+	<a id = "textbanner" href = "/forum"> <b>{FORUM}</b></a>
+	<a id = "textbanner" href = "/blog"> <b>{blog}</b></a>
+	<a id = "textbanner" href = "/features"> <b>{features}</b></a>
+	<a id = "textbanner" href = "/about"> <b>{about}</b></a>
+</div> -->
+
+<div class = "text">
+
+$:content
+
+</div>
+
+
+
+
+<a class = "bottomwrapper"  href = "/home">go home</a>
+
+</div>

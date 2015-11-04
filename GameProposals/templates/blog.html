@@ -1,0 +1,26 @@
+$def with (content)
+$var cssfiles: /static/maincss.css
+
+<div id ="mainwrapper">
+	
+<a href = "/home"><img class = "BannerImage" src = "/static/GP_png.png" alt = "Test Banner(no image)"/></a>
+
+<div id = "linkbar">
+	<a id = "textbanner" href = "/gpforum"> <b>{FORUM}</b></a>
+	<a id = "textbanner" href = "/blog"> <b>{blog}</b></a>
+	<a id = "textbanner" href = "/features"> <b>{features}</b></a>
+	<a id = "textbanner" href = "/about"> <b>{about}</b></a>
+</div>
+
+<div class ="newsbody">
+$if content:
+	$:content[0:4]
+
+$else:
+	no blog entries
+
+<a href = "/home">go home</a>
+</div>
+
+
+</div>

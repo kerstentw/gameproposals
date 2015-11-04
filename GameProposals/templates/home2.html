@@ -1,0 +1,76 @@
+$def with (content)
+$var cssfiles: /static/secondcss.css
+
+<html>
+<head>
+<meta http-equiv = "X-UA-Compatible" content = "IE=7">
+<meta http-equiv = "X-UA-Compatible" content = "IE=8">
+<meta http-equiv = "X-UA-Compatible" content = "IE=9">
+
+<link rel = "stylesheet" type = "text/css" href = "testcss.css">
+<meta charset = "utf-8">
+</head>
+
+
+
+<body>
+
+<div id = "main_wrapper">
+	<a href ="http://107.170.230.52/gpforum/viewforum.php?f=3"> <img id = "upper_banner" src = "static/images/GP_Top_Banner2.png" alt = "upperbanner"\></a>
+
+
+<div class = "text_wrapper">
+
+	<div class = "text" style = "font-family: audiowide;" >
+Gameproposals.com is an ideas site. A place where gamers can discuss, detail, and
+design the types of games that they would like to play.
+	</div>
+
+</div>
+
+<div class = "text_wrapper"> <!--This is the section to advertise recent threads.-->
+<div class = "popbox-left">
+<a href =  http://107.170.230.52/gpforum/viewforum.php?f=21 ><img src = "static/Shippy.png" alt = "Recent" /> 	</a>
+</div>
+</div>
+
+
+<div class = "text_wrapper"> <!--This is the section to advertise popular threads.-->
+<div class = "popbox-right">
+
+	<a href = "http://107.170.230.52/gpforum/viewtopic.php?f=10&t=3"><img src = "static/s_mobius.png" alt = "Popular" /></a>
+</div>
+</div>
+
+
+<div class = "text_wrapper">
+	<h1>SITE NEWS:</h1>
+	<div class = "text">
+		$:content	
+	</div>
+
+	
+</div>
+
+
+
+<div id = "site_map" >
+
+	<h3>Site Map</h3>
+	<em>Copyright 2015 Game Proposals</em><br/><br/>	
+	Fonts: "Audiowide" by Astigmatic; "Coustard" by Vernon Adams
+	
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+
+</html>

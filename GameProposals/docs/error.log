@@ -1,0 +1,199 @@
+[Sun Jan 18 08:54:25.989977 2015] [:error] [pid 22620] [client 125.141.73.54:33185] Traceback (most recent call last):, referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990074 2015] [:error] [pid 22620] [client 125.141.73.54:33185]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process, referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990087 2015] [:error] [pid 22620] [client 125.141.73.54:33185]     return self.handle(), referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990096 2015] [:error] [pid 22620] [client 125.141.73.54:33185]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle, referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990105 2015] [:error] [pid 22620] [client 125.141.73.54:33185]     return self._delegate(fn, self.fvars, args), referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990112 2015] [:error] [pid 22620] [client 125.141.73.54:33185]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate, referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990119 2015] [:error] [pid 22620] [client 125.141.73.54:33185]     return handle_class(cls), referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990128 2015] [:error] [pid 22620] [client 125.141.73.54:33185]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class, referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990136 2015] [:error] [pid 22620] [client 125.141.73.54:33185]     return tocall(*args), referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990142 2015] [:error] [pid 22620] [client 125.141.73.54:33185]   File "/var/www/GameProposals/bin/app.wsgi", line 60, in GET, referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990151 2015] [:error] [pid 22620] [client 125.141.73.54:33185]     content = sqlhandler.featuresget(), referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990160 2015] [:error] [pid 22620] [client 125.141.73.54:33185]   File "/var/www/GameProposals/bin/sqlhandler.py", line 11, in featuresget, referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990169 2015] [:error] [pid 22620] [client 125.141.73.54:33185]     "port = 5432 host = localhost dbname = gameproposals password = runner user = postgres"), referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990179 2015] [:error] [pid 22620] [client 125.141.73.54:33185]   File "/usr/lib/python2.7/dist-packages/psycopg2/__init__.py", line 164, in connect, referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990191 2015] [:error] [pid 22620] [client 125.141.73.54:33185]     conn = _connect(dsn, connection_factory=connection_factory, async=async), referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990201 2015] [:error] [pid 22620] [client 125.141.73.54:33185] OperationalError: FATAL:  password authentication failed for user "postgres", referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990210 2015] [:error] [pid 22620] [client 125.141.73.54:33185] FATAL:  password authentication failed for user "postgres", referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990218 2015] [:error] [pid 22620] [client 125.141.73.54:33185] , referer: http://107.170.230.52/home
+[Sun Jan 18 08:54:25.990239 2015] [:error] [pid 22620] [client 125.141.73.54:33185] , referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509289 2015] [:error] [pid 22690] [client 125.141.73.54:33187] Traceback (most recent call last):, referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509356 2015] [:error] [pid 22690] [client 125.141.73.54:33187]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process, referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509363 2015] [:error] [pid 22690] [client 125.141.73.54:33187]     return self.handle(), referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509368 2015] [:error] [pid 22690] [client 125.141.73.54:33187]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle, referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509380 2015] [:error] [pid 22690] [client 125.141.73.54:33187]     return self._delegate(fn, self.fvars, args), referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509385 2015] [:error] [pid 22690] [client 125.141.73.54:33187]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate, referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509390 2015] [:error] [pid 22690] [client 125.141.73.54:33187]     return handle_class(cls), referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509394 2015] [:error] [pid 22690] [client 125.141.73.54:33187]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class, referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509398 2015] [:error] [pid 22690] [client 125.141.73.54:33187]     return tocall(*args), referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509402 2015] [:error] [pid 22690] [client 125.141.73.54:33187]   File "/var/www/GameProposals/bin/app.wsgi", line 60, in GET, referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509406 2015] [:error] [pid 22690] [client 125.141.73.54:33187]     content = sqlhandler.featuresget(), referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509409 2015] [:error] [pid 22690] [client 125.141.73.54:33187]   File "/var/www/GameProposals/bin/sqlhandler.py", line 10, in featuresget, referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509414 2015] [:error] [pid 22690] [client 125.141.73.54:33187]     conn = psycopg2.connect("port = 5432 host = localhost dbname = gameproposals password = runner1$ user = postgres"), referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509418 2015] [:error] [pid 22690] [client 125.141.73.54:33187]   File "/usr/lib/python2.7/dist-packages/psycopg2/__init__.py", line 164, in connect, referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509422 2015] [:error] [pid 22690] [client 125.141.73.54:33187]     conn = _connect(dsn, connection_factory=connection_factory, async=async), referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509426 2015] [:error] [pid 22690] [client 125.141.73.54:33187] OperationalError: FATAL:  password authentication failed for user "postgres", referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509430 2015] [:error] [pid 22690] [client 125.141.73.54:33187] FATAL:  password authentication failed for user "postgres", referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509433 2015] [:error] [pid 22690] [client 125.141.73.54:33187] , referer: http://107.170.230.52/home
+[Sun Jan 18 08:57:08.509445 2015] [:error] [pid 22690] [client 125.141.73.54:33187] , referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220641 2015] [:error] [pid 23205] [client 125.141.73.54:33439] Traceback (most recent call last):, referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220714 2015] [:error] [pid 23205] [client 125.141.73.54:33439]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process, referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220721 2015] [:error] [pid 23205] [client 125.141.73.54:33439]     return self.handle(), referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220726 2015] [:error] [pid 23205] [client 125.141.73.54:33439]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle, referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220731 2015] [:error] [pid 23205] [client 125.141.73.54:33439]     return self._delegate(fn, self.fvars, args), referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220735 2015] [:error] [pid 23205] [client 125.141.73.54:33439]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate, referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220740 2015] [:error] [pid 23205] [client 125.141.73.54:33439]     return handle_class(cls), referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220744 2015] [:error] [pid 23205] [client 125.141.73.54:33439]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class, referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220759 2015] [:error] [pid 23205] [client 125.141.73.54:33439]     return tocall(*args), referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220765 2015] [:error] [pid 23205] [client 125.141.73.54:33439]   File "/var/www/GameProposals/bin/app.wsgi", line 60, in GET, referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220769 2015] [:error] [pid 23205] [client 125.141.73.54:33439]     content = sqlhandler.featuresget(), referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220773 2015] [:error] [pid 23205] [client 125.141.73.54:33439]   File "/var/www/GameProposals/bin/sqlhandler.py", line 14, in featuresget, referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220777 2015] [:error] [pid 23205] [client 125.141.73.54:33439]     cur.execute('SELECT * FROM "GP_features";') #NOTE that you have to maintain quote syntax so use '' around "" for fetching names of tables and columns, referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220782 2015] [:error] [pid 23205] [client 125.141.73.54:33439] ProgrammingError: relation "GP_features" does not exist, referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220786 2015] [:error] [pid 23205] [client 125.141.73.54:33439] LINE 1: SELECT * FROM "GP_features";, referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220790 2015] [:error] [pid 23205] [client 125.141.73.54:33439]                       ^, referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220794 2015] [:error] [pid 23205] [client 125.141.73.54:33439] , referer: http://107.170.230.52/home
+[Sun Jan 18 09:40:57.220806 2015] [:error] [pid 23205] [client 125.141.73.54:33439] , referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265618 2015] [:error] [pid 23345] [client 125.141.73.54:33575] Traceback (most recent call last):, referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265730 2015] [:error] [pid 23345] [client 125.141.73.54:33575]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process, referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265745 2015] [:error] [pid 23345] [client 125.141.73.54:33575]     return self.handle(), referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265755 2015] [:error] [pid 23345] [client 125.141.73.54:33575]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle, referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265764 2015] [:error] [pid 23345] [client 125.141.73.54:33575]     return self._delegate(fn, self.fvars, args), referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265774 2015] [:error] [pid 23345] [client 125.141.73.54:33575]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate, referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265783 2015] [:error] [pid 23345] [client 125.141.73.54:33575]     return handle_class(cls), referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265793 2015] [:error] [pid 23345] [client 125.141.73.54:33575]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class, referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265803 2015] [:error] [pid 23345] [client 125.141.73.54:33575]     return tocall(*args), referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265811 2015] [:error] [pid 23345] [client 125.141.73.54:33575]   File "/var/www/GameProposals/bin/app.wsgi", line 60, in GET, referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265821 2015] [:error] [pid 23345] [client 125.141.73.54:33575]     content = sqlhandler.featuresget(), referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265942 2015] [:error] [pid 23345] [client 125.141.73.54:33575]   File "/var/www/GameProposals/bin/sqlhandler.py", line 10, in featuresget, referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265961 2015] [:error] [pid 23345] [client 125.141.73.54:33575]     conn = psycopg2.connect("port = 5432 host = 107.170.230.52 dbname = gameproposals password = runner1$ user = postgres"), referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.265993 2015] [:error] [pid 23345] [client 125.141.73.54:33575]   File "/usr/lib/python2.7/dist-packages/psycopg2/__init__.py", line 164, in connect, referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.266004 2015] [:error] [pid 23345] [client 125.141.73.54:33575]     conn = _connect(dsn, connection_factory=connection_factory, async=async), referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.266012 2015] [:error] [pid 23345] [client 125.141.73.54:33575] OperationalError: could not connect to server: Connection refused, referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.266021 2015] [:error] [pid 23345] [client 125.141.73.54:33575] \tIs the server running on host "107.170.230.52" and accepting, referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.266030 2015] [:error] [pid 23345] [client 125.141.73.54:33575] \tTCP/IP connections on port 5432?, referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.266038 2015] [:error] [pid 23345] [client 125.141.73.54:33575] , referer: http://107.170.230.52/home
+[Sun Jan 18 10:04:38.266064 2015] [:error] [pid 23345] [client 125.141.73.54:33575] , referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544082 2015] [:error] [pid 23418] [client 125.141.73.54:33576] Traceback (most recent call last):, referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544140 2015] [:error] [pid 23418] [client 125.141.73.54:33576]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process, referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544147 2015] [:error] [pid 23418] [client 125.141.73.54:33576]     return self.handle(), referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544151 2015] [:error] [pid 23418] [client 125.141.73.54:33576]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle, referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544156 2015] [:error] [pid 23418] [client 125.141.73.54:33576]     return self._delegate(fn, self.fvars, args), referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544160 2015] [:error] [pid 23418] [client 125.141.73.54:33576]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate, referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544165 2015] [:error] [pid 23418] [client 125.141.73.54:33576]     return handle_class(cls), referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544169 2015] [:error] [pid 23418] [client 125.141.73.54:33576]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class, referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544174 2015] [:error] [pid 23418] [client 125.141.73.54:33576]     return tocall(*args), referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544178 2015] [:error] [pid 23418] [client 125.141.73.54:33576]   File "/var/www/GameProposals/bin/app.wsgi", line 60, in GET, referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544182 2015] [:error] [pid 23418] [client 125.141.73.54:33576]     content = sqlhandler.featuresget(), referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544186 2015] [:error] [pid 23418] [client 125.141.73.54:33576]   File "/var/www/GameProposals/bin/sqlhandler.py", line 14, in featuresget, referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544191 2015] [:error] [pid 23418] [client 125.141.73.54:33576]     cur.execute('SELECT * FROM "GP_features";') #NOTE that you have to maintain quote syntax so use '' around "" for fetching names of tables and columns, referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544196 2015] [:error] [pid 23418] [client 125.141.73.54:33576] ProgrammingError: relation "GP_features" does not exist, referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544200 2015] [:error] [pid 23418] [client 125.141.73.54:33576] LINE 1: SELECT * FROM "GP_features";, referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544205 2015] [:error] [pid 23418] [client 125.141.73.54:33576]                       ^, referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544225 2015] [:error] [pid 23418] [client 125.141.73.54:33576] , referer: http://107.170.230.52/home
+[Sun Jan 18 10:07:08.544239 2015] [:error] [pid 23418] [client 125.141.73.54:33576] , referer: http://107.170.230.52/home
+[Wed Feb 11 17:22:32.607210 2015] [core:error] [pid 16763] [client 85.114.141.217:38544] AH00126: Invalid URI in request GET <title>phpMyAdmin HTTP/1.1
+[Tue Feb 17 06:12:27.624431 2015] [core:error] [pid 27033] [client 91.202.104.5:52607] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Tue Feb 17 21:19:49.575911 2015] [core:error] [pid 25364] [client 107.170.243.205:57390] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Tue Feb 24 22:39:08.894369 2015] [:error] [pid 6198] [client 125.141.73.54:51280] Traceback (most recent call last):, referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895480 2015] [:error] [pid 6198] [client 125.141.73.54:51280]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process, referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895491 2015] [:error] [pid 6198] [client 125.141.73.54:51280]     return self.handle(), referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895496 2015] [:error] [pid 6198] [client 125.141.73.54:51280]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle, referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895501 2015] [:error] [pid 6198] [client 125.141.73.54:51280]     return self._delegate(fn, self.fvars, args), referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895506 2015] [:error] [pid 6198] [client 125.141.73.54:51280]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate, referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895510 2015] [:error] [pid 6198] [client 125.141.73.54:51280]     return handle_class(cls), referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895515 2015] [:error] [pid 6198] [client 125.141.73.54:51280]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class, referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895520 2015] [:error] [pid 6198] [client 125.141.73.54:51280]     return tocall(*args), referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895524 2015] [:error] [pid 6198] [client 125.141.73.54:51280]   File "/var/www/GameProposals/bin/app.wsgi", line 70, in GET, referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895529 2015] [:error] [pid 6198] [client 125.141.73.54:51280]     text = open("aboutme.txt", r), referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895533 2015] [:error] [pid 6198] [client 125.141.73.54:51280] NameError: global name 'r' is not defined, referer: http://107.170.230.52/home
+[Tue Feb 24 22:39:08.895549 2015] [:error] [pid 6198] [client 125.141.73.54:51280] , referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832736 2015] [:error] [pid 12283] [client 125.141.73.54:51296] Traceback (most recent call last):, referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832777 2015] [:error] [pid 12283] [client 125.141.73.54:51296]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process, referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832786 2015] [:error] [pid 12283] [client 125.141.73.54:51296]     return self.handle(), referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832793 2015] [:error] [pid 12283] [client 125.141.73.54:51296]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle, referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832801 2015] [:error] [pid 12283] [client 125.141.73.54:51296]     return self._delegate(fn, self.fvars, args), referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832807 2015] [:error] [pid 12283] [client 125.141.73.54:51296]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate, referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832815 2015] [:error] [pid 12283] [client 125.141.73.54:51296]     return handle_class(cls), referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832835 2015] [:error] [pid 12283] [client 125.141.73.54:51296]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class, referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832842 2015] [:error] [pid 12283] [client 125.141.73.54:51296]     return tocall(*args), referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832848 2015] [:error] [pid 12283] [client 125.141.73.54:51296]   File "/var/www/GameProposals/bin/app.wsgi", line 70, in GET, referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832855 2015] [:error] [pid 12283] [client 125.141.73.54:51296]     text = open("aboutme.txt", "r"), referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832862 2015] [:error] [pid 12283] [client 125.141.73.54:51296] IOError: [Errno 2] No such file or directory: 'aboutme.txt', referer: http://107.170.230.52/home
+[Tue Feb 24 22:41:29.832875 2015] [:error] [pid 12283] [client 125.141.73.54:51296] , referer: http://107.170.230.52/home
+[Sun Mar 08 12:22:28.128969 2015] [core:error] [pid 28816] (13)Permission denied: [client 125.141.73.54:34367] AH00132: file permissions deny server access: /var/www/GameProposals/static/under_construction.png, referer: http://107.170.230.52/features
+[Sun Mar 08 12:23:39.273991 2015] [core:error] [pid 8139] (13)Permission denied: [client 125.141.73.54:34372] AH00132: file permissions deny server access: /var/www/GameProposals/static/under_construction.png, referer: http://107.170.230.52/features
+[Sun Mar 08 12:24:58.541725 2015] [core:error] [pid 8416] (13)Permission denied: [client 125.141.73.54:34375] AH00132: file permissions deny server access: /var/www/GameProposals/static/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 09:32:52.725537 2015] [core:error] [pid 25744] (13)Permission denied: [client 125.141.73.54:37216] AH00132: file permissions deny server access: /var/www/GameProposals/static/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 09:41:53.509268 2015] [core:error] [pid 26461] (13)Permission denied: [client 125.141.73.54:37233] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 09:41:56.019321 2015] [core:error] [pid 26461] (13)Permission denied: [client 125.141.73.54:37233] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 09:42:19.516828 2015] [core:error] [pid 27138] (13)Permission denied: [client 125.141.73.54:37240] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 09:42:21.592648 2015] [core:error] [pid 27138] (13)Permission denied: [client 125.141.73.54:37240] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 09:54:18.127872 2015] [core:error] [pid 27154] (13)Permission denied: [client 125.141.73.54:37271] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 09:54:23.826332 2015] [core:error] [pid 27137] (13)Permission denied: [client 125.141.73.54:37276] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 09:57:53.646856 2015] [core:error] [pid 27152] (13)Permission denied: [client 125.141.73.54:37357] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:03:06.902674 2015] [core:error] [pid 27137] (13)Permission denied: [client 125.141.73.54:37373] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:07:22.629631 2015] [core:error] [pid 27154] (13)Permission denied: [client 125.141.73.54:37381] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:08:50.771866 2015] [core:error] [pid 27137] (13)Permission denied: [client 125.141.73.54:37388] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:13:09.854760 2015] [core:error] [pid 27151] (13)Permission denied: [client 125.141.73.54:37396] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:15:52.784005 2015] [core:error] [pid 27496] (13)Permission denied: [client 125.141.73.54:37402] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:15:55.515059 2015] [core:error] [pid 27496] (13)Permission denied: [client 125.141.73.54:37402] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:15:57.611374 2015] [core:error] [pid 27496] (13)Permission denied: [client 125.141.73.54:37402] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:16:00.255966 2015] [core:error] [pid 27496] (13)Permission denied: [client 125.141.73.54:37402] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:19:07.888604 2015] [core:error] [pid 27137] (13)Permission denied: [client 125.141.73.54:37414] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:19:13.736654 2015] [core:error] [pid 27419] (13)Permission denied: [client 125.141.73.54:37415] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:19:15.408337 2015] [core:error] [pid 27419] (13)Permission denied: [client 125.141.73.54:37415] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:19:16.075230 2015] [core:error] [pid 27419] (13)Permission denied: [client 125.141.73.54:37415] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:19:16.668847 2015] [core:error] [pid 27419] (13)Permission denied: [client 125.141.73.54:37415] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:19:17.257187 2015] [core:error] [pid 27419] (13)Permission denied: [client 125.141.73.54:37415] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:22:15.099790 2015] [core:error] [pid 27706] (13)Permission denied: [client 125.141.73.54:37427] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:22:17.558250 2015] [core:error] [pid 27706] (13)Permission denied: [client 125.141.73.54:37427] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:22:20.681182 2015] [core:error] [pid 27706] (13)Permission denied: [client 125.141.73.54:37427] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:35:05.610847 2015] [core:error] [pid 27152] (13)Permission denied: [client 125.141.73.54:37436] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:35:09.565313 2015] [core:error] [pid 27419] (13)Permission denied: [client 125.141.73.54:37439] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:37:14.736985 2015] [core:error] [pid 27965] (13)Permission denied: [client 125.141.73.54:37446] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:40:27.074778 2015] [core:error] [pid 27975] (13)Permission denied: [client 125.141.73.54:37452] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:40:32.256652 2015] [core:error] [pid 27974] (13)Permission denied: [client 125.141.73.54:37453] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:57:38.526411 2015] [core:error] [pid 27964] (13)Permission denied: [client 125.141.73.54:37479] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:59:12.009556 2015] [core:error] [pid 27975] (13)Permission denied: [client 125.141.73.54:37486] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:59:14.838608 2015] [core:error] [pid 27974] (13)Permission denied: [client 125.141.73.54:37488] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:59:17.286902 2015] [core:error] [pid 27974] (13)Permission denied: [client 125.141.73.54:37488] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/under_construction.png, referer: http://107.170.230.52/features
+[Mon Mar 09 10:59:32.904387 2015] [core:error] [pid 28310] (13)Permission denied: [client 125.141.73.54:37492] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_const.png, referer: http://107.170.230.52/features
+[Mon Mar 09 11:04:52.112691 2015] [core:error] [pid 28324] (13)Permission denied: [client 125.141.73.54:37502] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_const.png, referer: http://107.170.230.52/features
+[Mon Mar 09 11:09:59.165021 2015] [core:error] [pid 28409] (13)Permission denied: [client 125.141.73.54:37525] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_const.png, referer: http://107.170.230.52/features
+[Mon Mar 09 11:11:30.318144 2015] [core:error] [pid 28413] (13)Permission denied: [client 125.141.73.54:37529] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_const.png, referer: http://107.170.230.52/features
+[Mon Mar 09 11:11:49.796859 2015] [core:error] [pid 28478] (13)Permission denied: [client 125.141.73.54:37535] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_const.png, referer: http://107.170.230.52/features
+[Mon Mar 09 11:13:14.432559 2015] [core:error] [pid 28548] (13)Permission denied: [client 125.141.73.54:37543] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_const.png, referer: http://107.170.230.52/features
+[Thu Mar 12 10:43:22.274221 2015] [core:error] [pid 29332] (13)Permission denied: [client 125.141.73.54:51726] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_con.png, referer: http://107.170.230.52/features
+[Thu Mar 12 10:57:44.920267 2015] [core:error] [pid 28781] (13)Permission denied: [client 125.141.73.54:51830] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_con.png, referer: http://107.170.230.52/features
+[Thu Mar 12 11:13:59.695068 2015] [core:error] [pid 28781] (13)Permission denied: [client 125.141.73.54:51998] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_con.png, referer: http://107.170.230.52/features
+[Thu Mar 12 11:15:19.692598 2015] [core:error] [pid 29783] (13)Permission denied: [client 125.141.73.54:52020] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_con.png, referer: http://107.170.230.52/features
+[Thu Mar 12 11:17:59.889153 2015] [core:error] [pid 29805] (13)Permission denied: [client 125.141.73.54:52038] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_con.png, referer: http://107.170.230.52/features
+[Thu Mar 12 11:25:48.094893 2015] [core:error] [pid 29877] (13)Permission denied: [client 125.141.73.54:52138] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_con.png, referer: http://107.170.230.52/features
+[Thu Mar 12 11:28:56.855137 2015] [core:error] [pid 29886] (13)Permission denied: [client 125.141.73.54:52167] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_con.png, referer: http://107.170.230.52/features
+[Thu Mar 12 11:45:05.838217 2015] [core:error] [pid 30053] (13)Permission denied: [client 125.141.73.54:52413] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_con.png, referer: http://107.170.230.52/features
+[Thu Mar 12 11:46:06.938091 2015] [core:error] [pid 29890] (13)Permission denied: [client 125.141.73.54:52415] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_con.png, referer: http://107.170.230.52/features
+[Thu Mar 12 11:46:11.537986 2015] [core:error] [pid 29957] (13)Permission denied: [client 125.141.73.54:52420] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_con.png, referer: http://107.170.230.52/features
+[Thu Mar 12 11:47:20.974990 2015] [core:error] [pid 30055] (13)Permission denied: [client 125.141.73.54:52433] AH00132: file permissions deny server access: /var/www/GameProposals/static/images/GP_con.png, referer: http://107.170.230.52/features
+[Thu Mar 12 12:08:19.474188 2015] [core:error] [pid 30377] (13)Permission denied: [client 125.141.73.54:52658] AH00132: file permissions deny server access: /var/www/GameProposals/static/favicon.ico
+[Thu Mar 12 12:10:46.223742 2015] [core:error] [pid 30366] (13)Permission denied: [client 125.141.73.54:52670] AH00132: file permissions deny server access: /var/www/GameProposals/static/favicon.ico
+[Fri Apr 24 13:51:55.969593 2015] [core:error] [pid 4986] [client 200.43.140.19:60107] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Fri Apr 24 18:39:46.632111 2015] [core:error] [pid 4985] [client 213.184.20.72:40035] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Fri Apr 24 20:37:56.782841 2015] [core:error] [pid 7569] [client 78.153.209.178:56277] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Fri Apr 24 22:46:36.872566 2015] [core:error] [pid 7571] [client 188.138.104.209:42540] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Fri Apr 24 22:52:57.282525 2015] [core:error] [pid 7571] [client 78.158.161.158:44704] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sat Apr 25 00:33:53.262659 2015] [core:error] [pid 4982] [client 119.254.17.102:34987] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sat Apr 25 00:56:47.123944 2015] [core:error] [pid 4982] [client 46.102.113.178:40802] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sat Apr 25 01:14:06.957056 2015] [core:error] [pid 4982] [client 223.203.197.143:54878] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sat Apr 25 02:42:27.433414 2015] [core:error] [pid 8238] [client 81.169.165.147:50372] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sat Apr 25 04:01:43.833604 2015] [core:error] [pid 8238] [client 78.153.211.146:60335] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sat Apr 25 07:08:18.584432 2015] [core:error] [pid 4982] [client 95.110.203.71:58167] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sat Apr 25 09:13:51.276414 2015] [core:error] [pid 10195] [client 218.145.31.179:45267] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Mon Jun 15 04:44:28.688642 2015] [core:error] [pid 30372] [client 162.243.206.189:36844] AH00126: Invalid URI in request GET <title>phpMyAdmin HTTP/1.1
+[Mon Jun 15 04:45:38.255556 2015] [core:error] [pid 30370] [client 162.243.206.189:57069] AH00126: Invalid URI in request GET  HTTP/1.1
+[Fri Jul 03 13:35:06.574236 2015] [core:error] [pid 20160] [client 71.170.222.94:53223] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sat Aug 08 10:43:12.402205 2015] [core:error] [pid 1446] [client 218.38.29.58:17419] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Thu Aug 20 18:13:06.311385 2015] [core:error] [pid 29397] [client 146.0.36.43:52701] AH00126: Invalid URI in request GET <title>phpMyAdmin HTTP/1.1
+[Sat Oct 24 21:14:27.952384 2015] [core:error] [pid 32201] [client 221.3.153.172:36801] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sat Oct 24 22:45:37.317284 2015] [core:error] [pid 32200] [client 221.3.153.172:51931] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sun Nov 01 13:30:02.183567 2015] [core:error] [pid 29667] [client 107.155.191.141:39111] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1

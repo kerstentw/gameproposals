@@ -1,0 +1,124 @@
+body {
+background-color: #D1D1E0;
+}
+
+h1{
+width:960px
+
+
+}
+
+#mainwrapper{
+border-radius: 5px;
+box-shadow: 5px 5px 5px #47476B;
+padding-top:30px;
+padding-left: 30px;
+padding-right: 30px;
+width:960px ;
+height: 1000px;
+background-color: white;
+margin: 40px auto;
+margin-left:40px auto;
+margin-right: 40px auto;
+border: 3px solid black;
+position: relative;
+
+}
+
+
+#linkbar{
+width:auto;
+height: auto;
+float: left;
+margin-top: 40px;
+margin-bottom: 0px;
+
+
+}
+
+
+#textbanner{
+background-color: black;
+font-family: courier new;
+color: white;
+padding: 10px 10px 10px 10px;
+margin: 5px;
+text-decoration: none;
+font-size: 30px;
+height: auto;
+width:auto;
+float: left;
+}
+
+
+
+.BannerImage {
+height: 100px; 
+width: 250px;
+float: left;
+margin-right: 20px;
+
+}
+
+.linktest{
+float: left;
+}
+
+
+
+.introbox{
+width: 880;
+height: 65;
+margin: 40px;
+border: black solid 1px;
+padding: 10px 10px 10px 10px;
+float: left;
+color: #990000;
+background-color:#CCCCCC ;
+font-weight: bold;
+font-family: courier new
+}
+
+
+
+.right-box{
+border-radius: 5px;
+border: solid black 4px;
+width: 400px;
+height: 200px;
+float: left;
+margin-right: 0px;
+margin-left:5px;
+margin-bottom: 10px;
+}
+
+.left-box{
+border-radius:5px;
+border: solid black 4px;
+width: 400px;
+height: 200px;
+float: left;
+margin-left: 50px;
+margin-right: 5px;
+margin-bottom: 10px;
+}
+
+.newsbody{
+border-radius: 5px;
+padding:5px;
+width: 900px;
+margin: 10px;
+height: auto;
+background-color: #e6e6e6;
+float: left;
+}
+
+.bottomwrapper{
+border-radius: 0px 0px 5px 5px;
+bottom: 0;
+position: absolute;
+color: black;
+width: 960px;
+
+
+}

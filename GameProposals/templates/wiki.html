@@ -1,0 +1,19 @@
+$def with (content)
+$var cssfiles: /static/maincss.css
+
+<div id = "mainwrapper">
+	
+<a href = "/gameproposals/home"><img class = "BannerImage" src = "/static/GP_png.png" alt = "Test Banner(no image)"/></a>
+
+<div id = "linkbar">
+	<a id = "textbanner" href = "/phpbb"> <b>{FORUM}</b></a>
+	<a id = "textbanner" href = "/gameproposals/blog"> <b>{blog}</b></a>
+	<a id = "textbanner" href = "/gameproposals/features"> <b>{features}</b></a>
+	<a id = "textbanner" href = "/gameproposals/about"> <b>{about}</b></a>
+</div>
+
+<div class = "newsbody">
+$: content
+</div>
+
+</div>

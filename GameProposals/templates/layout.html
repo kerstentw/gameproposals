@@ -1,0 +1,56 @@
+$def with (content)
+$var cssfiles: /static/secondcss.css
+
+
+<html>
+<head>
+<title>GameProposals</title>
+
+$if content.cssfiles:
+	$for f in content.cssfiles.split():
+		<link rel="stylesheet" href ="$f" type = "text/css" media = "screen" charset = "utf-8"/>
+
+<meta charset="UTF-8">
+<link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Audiowide|Coustard' rel='stylesheet' type='text/css'>
+<link href = 'static/favicon.ico' rel = "shortcut icon" type = "image/png" >
+
+</head>
+
+<body>
+
+<div class = "link_backer">
+
+        <img class = "link_backer" src = "static/images/Menu_Bar.png" alt = "Linkbar">
+
+       <div class = "inv_linkcontainer">
+        <a class = "links" href = '/home'><img class = "bannerlogo" src = "static/images/GP_logo_sm.png"></a>
+        <a class = "links" href = '/about'><img class = "dots" src = "static/images/dot_yellow.png" > ABOUT</a>
+        <a class = "links" href = '/gpforum/viewforum.php?f=8'> <img class = "dots" src = "static/images/dot_red.png" >CURRENT SERIES</a>
+        <a class = "links" href = '/gpforum/viewforum.php?f=9'> <img class = "dots" src = "static/images/dot_blue.png" >NEW SERIES</a>
+        <a class = "links" href = '/features'> <img class = "dots" src = "static/images/dot_green.png" >FEATURES</a>
+        </div>
+
+
+</div>
+
+
+$:content
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+
+
+</html>
