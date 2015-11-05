@@ -1,2 +1,2 @@
 # gameproposals
-This is the beta experiment for the gameproposals site.
+This is the working repo for the gameproposals web-app/website.
